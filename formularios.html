@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <ul><li><a href="https://github.com/LuigiHdez">https://github.com/LuigiHdez</a></li></ul>
+
+    <ul>
+        <li><input type="text"/></li>
+        <li><input name="email"/></li>
+        <li><input type="text"value="Hello world!"/></li>
+        <li><input type="text"value="Hello world!"disabled="disabled"/></li>
+    </ul>
+
+    <ul>
+        <li><input type="checkbox" name="temas"/>HTML
+        </li><input type="checkbox" name="temas"/>CSS
+    </ul>
+
+    <ul>
+        <li><input type="checkbox" checked="checked"/>HTML
+        </li><input type="checkbox"/>CSS
+    </ul>
+
+    <ul>
+        <li><input type="checkbox" value="html"/>HTML
+        </li><input type="checkbox" value="css"/>CSS
+    </ul>
+
+    <ul>
+        <li><input type="radio" name="tema"/>HTML
+        </li><input type="radio" name="tema"/>CSS
+    </ul>
+
+    <ul>
+        <li><input type="radio" checked="checked"/>HTML
+        </li><input type="radio"/>CSS
+        
+    </ul>
+
+    <ul>
+        <li><input type="radio" value="html"/>HTML
+        </li><input type="radio" value="css"/>CSS
+    </ul>
+    <ul>
+        <li><input type="submit" value="HTML"/>
+        </li><input type="submit" value="CSS"/>
+    </ul>
+
+    <ul>
+        <li><input type="reset" value="HTML"/>
+        </li><input type="reset" value="CSS"/>
+    </ul>
+
+    <ul>
+        <li><input type="button" value="HTML"/>
+        </li><input type="button" value="CSS"/>
+    </ul>
+
+    <ul>
+        <li><input type="file" accept="image/gif"/>
+            <form enctype="multipart/form-data"></form>
+        </li>
+    </ul>
+
+    <ul>
+        <li><button onclick="javascript:miFuncion();">Haz clic</button>
+
+            <script src="miNonObtrusiveLibrary.js"></script>
+        
+            <script>
+                miFuncion();
+            </script>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+        <select>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <select multiple="multiple">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <select>
+                <optgroup label="HTML">
+                    <option value="labels">Tablas</option>
+                    <option value="forms">Formularios</option>
+                </optgroup>
+                <optgroup label="CSS">
+                    <option value="colores">Tablas</option>
+                </optgroup>
+
+            </select>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <form>
+                <label for="html">HTML</label>
+                <input type="radio" name="tema" id="html"/>
+                <br/>
+                <label for="css">CSS</label>
+                <input type="radio" name="tema" id="css"/>
+            </form>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <fieldset><legend>Perfil</legend>
+                Nombre:<input type="text"><br/>
+                Email:<input type="text"><br/>
+            </fieldset>
+        </li>
+        <li>
+            <fieldset><legend>Temas</legend>
+                <input type="checkbox">HTML
+                <input type="checkbox">CSS
+            </fieldset>
+        </li>
+    </ul>
+
+</body>
+</html>
