@@ -5,4 +5,4 @@ Este repositorio contiene códigos HTML, cada uno en su propio archivo para faci
 ## Códigos incluidos
 - **listas:** Este código muestra los tipos básicos de listas en HTML.
 - **formularios:** Este código muestra los tipos básicos de formularios en HTML.
--**tablas:** Este código muestra los tipos básicos de tablas en HTML.
+- **tablas:** Este código muestra los tipos básicos de tablas en HTML.
